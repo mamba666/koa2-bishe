@@ -2,6 +2,7 @@
 
 /**
  * Module dependencies.
+ * web服务
  */
 
 var app = require('../src/app')
