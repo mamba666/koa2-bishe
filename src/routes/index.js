@@ -1,6 +1,7 @@
 const router = require('koa-router')()
 
 router.get('/', async (ctx, next) => {
+  // ejs的渲染发生在这里,index是index.ejs,title是将传给index.ejs的字符串
   await ctx.render('index', {
     title: 'Hello Koa 2!'
   })
